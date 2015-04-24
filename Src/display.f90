@@ -50,7 +50,7 @@ subroutine display
     write(*,'(a63)')'=********************************************************='
     write(*,'(a63)')'=--------------------------------------------------------='
     write(*,*)''
-
+    !
     write(*,'(a13,a9,a1,a9)')'Start : ',cdate ,' ',ctime
     write(*,*)''
     write(*,*)'                        (Cl-)-------------(Na+)'
@@ -68,8 +68,6 @@ subroutine display
     write(*,*)'                      |/                |/'
     write(*,*)'                    (Cl-)-------------(Na+)'
     write(*,*)''
-
-
     return
 end subroutine display
 
