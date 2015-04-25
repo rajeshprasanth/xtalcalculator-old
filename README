@@ -1,0 +1,62 @@
++-----------------------------------------------------------------------+
+|                              WELCOME                                  |
++-----------------------------------------------------------------------+ 
+If you find any bugs in this please feel free to report. 
+Suggestions and comments are warmly welcome.
+email: rajeshprasanth@rediffmail.com
+-------------------------------------------------------------------------
+
+The executables in this package can calculate real space lattice vector,
+reciprocal lattice vector and brillouin zone volume.
+
+Installation:
+
+The installation of this package is much easier.
+Follow the step so that you can install the package without much pain.
+
+commands for impatience!
+   1) unzip and untar the package using the following command
+          $ tar zxvf XtalCalculator-2.1.0.tar.gz
+      or if your version of tar does not recognize 'z' flag, try
+          $ gunzip -c XtalCalculator-2.1.0.tar.gz | tar xvf -
+
+      A directory 'XtalCalculator-2.1.0' should have been created.
+   
+   2) Issue the command
+          $ cd XtalCalculator-2.1.0
+          $ ./configure
+	 
+   3) Issue the command
+          $ make <targets>
+            
+          Issuing make without targets will lists all possible targets.
+
+   After sucessfull compilation the binaries are placed in the 'Bin' directory.
+They can be executed by issuing
+            
+         $ cd Bin
+         $ ./xtalcalculator.x
+ 
+   The executable xtalcalculator.x starts with the welcome message and a beautifull
+stick image of Sodium Chloride crystal with start time.
+
+   The executable without command line arguments return back the error to issue the
+proper command.
+
+   Input files can be prepared manually. But I suggest the users to make use of 
+inputmaker.x program to generate the formatted input file for xtalcalculator.
+inputmaker.x can be compiled in /Tools/inputmaker/Src.
+
+   Example files with reference outputs are also been added to enable the users to 
+know more about the usage of inputfiles and the xtalcalculator.
+
+   Testsuites are also added for test the standard performance of the code.
+ 
+   The program can be executed by issuing the following command
+	
+	$ xtalcalculator.x file.in file.out
+
+   The program resolve.x is a converse program for xtalcalculator.x.
+This program compute the lattice parameters from the primitive lattice vectors.
+          
+
