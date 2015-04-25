@@ -42,7 +42,7 @@ subroutine display
     write(*,'(a63)')'=--------------------------------------------------------='
     write(*,'(a63)')'=********************************************************='
     write(*,'(a63)')'=*                                                      *='
-    write(*,'(a63)')'=*  Version      : 2.1.0-rev001                         *='
+    write(*,'(a63)')'=*  Version      : 2.1.0                                *='
     write(*,'(a63)')'=*  Revision     : rev001                               *='
     write(*,'(a63)')'=*  Developer    : Anandavadivel Rajesh Prashanth       *='
     write(*,'(a63)')'=*  E-mail       : rajeshprasanth@rediffmail.com        *='
@@ -50,7 +50,7 @@ subroutine display
     write(*,'(a63)')'=********************************************************='
     write(*,'(a63)')'=--------------------------------------------------------='
     write(*,*)''
-    !
+
     write(*,'(a13,a9,a1,a9)')'Start : ',cdate ,' ',ctime
     write(*,*)''
     write(*,*)'                        (Cl-)-------------(Na+)'
@@ -68,6 +68,8 @@ subroutine display
     write(*,*)'                      |/                |/'
     write(*,*)'                    (Cl-)-------------(Na+)'
     write(*,*)''
+
+
     return
 end subroutine display
 
