@@ -26,7 +26,7 @@ AC_DEFUN([AC_SPLASH_DISPLAY],[
 	echo "         =--------------------------------------------------------="
 	echo "         =********************************************************="
 	echo "         =*                                                      *="
-	echo "         =*  Version      : 2.1.0-rev001                         *="
+	echo "         =*  Version      : 2.1.0                                *="
 	echo "         =*  Revision     : rev001                               *="
 	echo "         =*  Developer    : Anandavadivel Rajesh Prashanth       *="
 	echo "         =*  E-mail       : rajeshprasanth@rediffmail.com        *="
